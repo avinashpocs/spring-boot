@@ -1,3 +1,3 @@
 # Spring Boot 2.x POCs
 
-* Spring Boot 2 Actuator
+* [Spring Boot 2 Actuator](spring-boot-actuator)
