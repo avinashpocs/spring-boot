@@ -1,0 +1,16 @@
+# server properties
+server.port: 9000
+
+# actuator properties
+management:
+  endpoints.web.exposure.include: '*' # To expose all actuator end points
+  endpoint.health.show-details: always # In order to see the information of the built-in health indicators
+  security.enabled: false
+
+# info end point properties
+info:
+  java-vendor: ${java.specification.vendor}
+  app:
+    name: spring boot actuator practice
+    description: spring boot actuator example
+    version: 1.0.0
